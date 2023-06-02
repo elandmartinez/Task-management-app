@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Sidebar from "@/components/Sidebar/Sidebar";
 
 export default function Home() {
   return (
-    <div>
-      App
+    <div className='text-gray-200 bg-zinc-950 h-screen flex flex-col'>
+      
+      <Sidebar />
     </div>
   )
 }
